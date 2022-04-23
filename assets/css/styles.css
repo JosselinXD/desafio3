@@ -1,0 +1,85 @@
+body{
+    margin: 0%;
+    border: 0;
+    padding: 0%;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+.header{
+    background-image: url(../imgs/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.texto1{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 475px;
+    float: left;
+}
+.imagen1{
+    width: 399px;
+    height: 237px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/iguana-1.jpg);
+    float: left;
+}
+.section2{
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: #1E1A13; 
+}
+
+.container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.icon{
+    width: 200px;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+
+.section3{
+     width: 100%;
+     height: 348px;
+     text-align:center
+}
+.iguana{
+    margin: 0 1em;
+    padding: 3em 0;
+    display: inline-block;
+}
+.iguana img{
+    width: 23em;
+    height: 15em;
+}
+
+.footer{
+    background-color: #1E1A13;
+    width: 100%;
+    height: 102px;
+    text-align: center;
+    padding-top: 30px;
+}
